@@ -1,11 +1,11 @@
 {
   "services" : {
     "postgres" : true
-  }
+  },
   "customSteps" : {
       "setup_environment" : {
           "commands" : [
-          "export DJANGO_SETTINGS_MODULE="test_settings"
+          "export DJANGO_SETTINGS_MODULE='test_settings'"
           ]
       }
   }
