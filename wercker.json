@@ -1,6 +1,6 @@
 {
   "services" : {
-    "postgres" : true
+    "postgresql" : true
   },
   "customSteps" : {
       "setup_environment" : {
