@@ -9,7 +9,9 @@
           ]
       },
       "test" : {
-        "python manage.py test"
+        "commands" : [
+          "python manage.py test"
+        ]
       }
   }
 }
