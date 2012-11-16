@@ -11,7 +11,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 DATABASES = {
-    'default': dj_database_url.config(env="WERCKER_POSTGRESQL_HOST")
+    'default': dj_database_url.config(env="WERCKER_POSTGRESQL_URL")
 }
 
 # Local time zone for this installation. Choices can be found here:

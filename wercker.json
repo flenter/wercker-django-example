@@ -7,6 +7,9 @@
           "commands" : [
           "export DJANGO_SETTINGS_MODULE='test_settings'"
           ]
+      },
+      "test" : {
+        "python manage.py test"
       }
   }
 }
