@@ -13,5 +13,4 @@ build:
     - script:
         name: run unit tests
         code: |
-          export DJANGO_SETTINGS_MODULE='wercks.test_settings'
           python manage.py test -v2
